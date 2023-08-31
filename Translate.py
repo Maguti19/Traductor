@@ -17,7 +17,7 @@ st.title("Interfaces Multimodales")
 st.subheader("TRADUCTOR")
 
 
-image = Image.open('traductor.jpg')
+image = Image.open('traducir.jpg')
 
 st.image(image)
 
@@ -66,35 +66,35 @@ if result:
     text = str(result.get("GET_TEXT"))
     in_lang = st.selectbox(
         "Selecciona el lenguaje de Entrada",
-        ("Inglés", "Español", "Bengali", "Coreano", "Mandarín", "Japonés"),
+        ("Inglés", "Español", "Italiano", "Coreano", "Francés", "Japonés"),
     )
     if in_lang == "Inglés":
         input_language = "en"
     elif in_lang == "Español":
         input_language = "es"
-    elif in_lang == "Bengali":
-        input_language = "bn"
+    elif in_lang == "Italiano":
+        input_language = "it"
     elif in_lang == "Coreano":
         input_language = "ko"
-    elif in_lang == "Mandarín":
-        input_language = "zh-cn"
+    elif in_lang == "Francés":
+        input_language = "fr"
     elif in_lang == "Japonés":
         input_language = "ja"
     
     out_lang = st.selectbox(
         "Selecciona el lenguaje de salida",
-        ("Inglés", "Español", "Bengali", "Coreano", "Mandarín", "Japonés"),
+        ("Inglés", "Español", "Italiano", "Coreano", "Francés", "Japonés"),
     )
     if out_lang == "Inglés":
         output_language = "en"
     elif out_lang == "Español":
         output_language = "es"
     elif out_lang == "Italiano":
-        output_language = "bn"
+        output_language = "it"
     elif out_lang == "Coreano":
         output_language = "ko"
     elif out_lang == "Frances":
-        output_language = "zh-cn"
+        output_language = "fr"
     elif out_lang == "Japonés":
         output_language = "ja"
     
