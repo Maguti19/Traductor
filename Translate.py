@@ -77,7 +77,7 @@ if result:
     elif in_lang == "Coreano":
         input_language = "ko"
     elif in_lang == "Francés":
-        input_language = "fr-FR"
+        input_language = "fr"
     elif in_lang == "Japonés":
         input_language = "ja"
     
@@ -94,7 +94,7 @@ if result:
     elif out_lang == "Coreano":
         output_language = "ko"
     elif out_lang == "Francés":
-        output_language = "fr-FR"
+        output_language = "fr"
     elif out_lang == "Japonés":
         output_language = "ja"
     
