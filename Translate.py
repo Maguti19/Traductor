@@ -93,7 +93,7 @@ if result:
         output_language = "it"
     elif out_lang == "Coreano":
         output_language = "ko"
-    elif out_lang == "Frances":
+    elif out_lang == "Francés":
         output_language = "fr-FR"
     elif out_lang == "Japonés":
         output_language = "ja"
